@@ -1,0 +1,58 @@
+
+{
+	"buildFiles" : [ "/Users/lichuang/Downloads/audioplayer/app/src/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/Users/lichuang/Desktop/working/sdk/cmake/3.6.3155560/bin/cmake --build /Users/lichuang/Downloads/audioplayer/app/.externalNativeBuild/cmake/release/armeabi-v7a --target clean"
+	],
+	"libraries" : 
+	{
+		"ffmpeg-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "ffmpeg",
+			"buildType" : "release",
+			"output" : "/Users/lichuang/Downloads/audioplayer/app/src/main/libs/armeabi-v7a/libijkffmpeg.so",
+			"toolchain" : "6771740122526301701"
+		},
+		"helloworld-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "helloworld",
+			"buildCommand" : "/Users/lichuang/Desktop/working/sdk/cmake/3.6.3155560/bin/cmake --build /Users/lichuang/Downloads/audioplayer/app/.externalNativeBuild/cmake/release/armeabi-v7a --target helloworld",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain /Users/lichuang/Desktop/working/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/lichuang/Desktop/working/sdk/ndk-bundle/platforms/android-9/arch-arm -Dhelloworld_EXPORTS -I/Users/lichuang/Downloads/audioplayer/app/src/main/jni/include  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/lichuang/Downloads/audioplayer/app/src/main/jni/AudioPlayer.c",
+					"workingDirectory" : "/Users/lichuang/Downloads/audioplayer/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain /Users/lichuang/Desktop/working/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/lichuang/Desktop/working/sdk/ndk-bundle/platforms/android-9/arch-arm -Dhelloworld_EXPORTS -I/Users/lichuang/Downloads/audioplayer/app/src/main/jni/include  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/lichuang/Downloads/audioplayer/app/src/main/jni/FFmpegAudioPlay.c",
+					"workingDirectory" : "/Users/lichuang/Downloads/audioplayer/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  -target armv7-none-linux-androideabi -gcc-toolchain /Users/lichuang/Desktop/working/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/lichuang/Desktop/working/sdk/ndk-bundle/platforms/android-9/arch-arm -Dhelloworld_EXPORTS -I/Users/lichuang/Downloads/audioplayer/app/src/main/jni/include  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/lichuang/Downloads/audioplayer/app/src/main/jni/AudioDevice.c",
+					"workingDirectory" : "/Users/lichuang/Downloads/audioplayer/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				}
+			],
+			"output" : "/Users/lichuang/Downloads/audioplayer/app/build/intermediates/cmake/release/obj/armeabi-v7a/libhelloworld.so",
+			"toolchain" : "6771740122526301701"
+		}
+	},
+	"toolchains" : 
+	{
+		"6771740122526301701" : 
+		{
+			"cCompilerExecutable" : "/Users/lichuang/Desktop/working/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/lichuang/Desktop/working/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
